@@ -100,7 +100,7 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | altus | linuxserver/altus | 5.8.1 |  |  |
 | anse | ddiu8081/anse | v1.1.11 |  |  |
 | apprise-api | linuxserver/apprise-api | 2.0.2 |  |  |
-| appsmith | appsmith/appsmith-ce | v2.5.1 |  |  |
+| appsmith | appsmith/appsmith-ce | v2.6.0 |  |  |
 | archivebox | archivebox/archivebox | 0.9.77 |  |  |
 | ardour | linuxserver/ardour | 0.0.0 |  |  |
 | arma3-server | ghcr.io/brettmayson/arma3server/arma3server | 1.0.0 |  | [Docs](https://community.bistudio.com/wiki/Arma_3_Dedicated_Server) |
@@ -140,7 +140,7 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | cantinarr | ghcr.io/windoze95/cantinarr | 1.0.0 |  | [Docs](https://github.com/windoze95/cantinarr#readme) |
 | casaos-toolbox | wisdomsky/casaos-toolbox | 0.2 |  |  |
 | celestory | celestory/gateway | 1.1.2 |  |  |
-| changedetection-io | linuxserver/changedetection.io | 0.60.9 |  |  |
+| changedetection-io | linuxserver/changedetection.io | 0.60.10 |  |  |
 | changedetection | ghcr.io/dgtlmoon/changedetection.io | 0.55.3 |  |  |
 | chatpad | ghcr.io/deiucanta/chatpad | f45cd53bc410412610c1ba1cbd84cd137d8e167d |  |  |
 | chrome | kasmweb/chrome | 1.15.0-rolling | [YouTube Video](https://youtu.be/jYm_Ih8VHAs) |  |
@@ -149,7 +149,7 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | ci | linuxserver/ci | 0.0.0 |  |  |
 | citron | linuxserver/citron | 2026.02.1 |  |  |
 | claude-code | ghcr.io/worph/claude-code-container | 1.0.28 |  | [Docs](https://github.com/worph/claude-code-container/blob/main/README.md) |
-| cloudflared-web | wisdomsky/cloudflared-web | 2026.10.3 | [YouTube Video](https://youtu.be/JvyyolXJ0-A) | [Docs](https://github.com/wisdomsky/cloudflared-web) |
+| cloudflared-web | wisdomsky/cloudflared-web | 2026.10.5 | [YouTube Video](https://youtu.be/JvyyolXJ0-A) | [Docs](https://github.com/wisdomsky/cloudflared-web) |
 | cloudreve-pro | ghcr.io/dvorinka/cloudreve | v4.23.0 |  | [Docs](https://github.com/Dvorinka/cloudreve/blob/master/README.md) |
 | cloudreve | cloudreve/cloudreve | 4.19.1 |  | [Docs](https://docs.cloudreve.org/overview/deploy/docker-compose) |
 | code-server | linuxserver/code-server | 4.143.1 | [YouTube Video](https://youtu.be/aiYcwXDfgE8) |  |
@@ -235,7 +235,7 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | gemdigest | piero24/gemdigest | 1.0 |  |  |
 | genmon | bigbeartechworld/big-bear-genmon | 2.0.03 | [YouTube Video](https://youtu.be/b0_zuVVeIP4) |  |
 | ghost | ghost | 6.73.0-alpine | [YouTube Video](https://youtu.be/oJZK9vH4W4Y) |  |
-| ghostfolio | ghostfolio/ghostfolio | 3.92.0 | [YouTube Video](https://youtu.be/CNe4-8Vyhos) |  |
+| ghostfolio | ghostfolio/ghostfolio | 3.94.0 | [YouTube Video](https://youtu.be/CNe4-8Vyhos) |  |
 | gimp | linuxserver/gimp | 0.0.0 |  |  |
 | gitea-mirror | ghcr.io/raylabshq/gitea-mirror | v3.15.10 |  | [Docs](https://community.bigbeartechworld.com/t/added-gitea-mirror-to-bigbearcasaos/3515?u=dragonfire1119#p-5962-documentation-6) |
 | gitea | gitea/gitea | 28.2.0 |  | [Docs](https://docs.gitea.com/) |
@@ -343,7 +343,7 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | morphos | ghcr.io/danvergara/morphos-server | 0.6.0 | [YouTube Video](https://youtu.be/dw7AEDbGqZY) |  |
 | mosquitto | eclipse-mosquitto | 2 |  |  |
 | msedge | linuxserver/msedge | 156.0.4314 |  |  |
-| mstream | linuxserver/mstream | 6.31.1 |  |  |
+| mstream | linuxserver/mstream | 6.32.0 |  |  |
 | mullvad-browser | linuxserver/mullvad-browser | 15.0.20251116 |  |  |
 | mumble-server | mumblevoip/mumble-server | v1.4.230-6 |  |  |
 | music-assistant | ghcr.io/music-assistant/server | 2.8.7 |  |  |
@@ -355,7 +355,7 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | navidrome | deluan/navidrome | 0.64.2 |  | [Docs](https://www.navidrome.org/docs/) |
 | ncdu | bigbeartechworld/big-bear-ncdu | 0.0.11 | [YouTube Video](https://youtu.be/5RCTglGRXss) |  |
 | neko-firefox | m1k1o/neko | firefox |  |  |
-| netalertx-v26 | jokobsk/netalertx | 26.10.24 |  | [Docs](https://docs.netalertx.com) |
+| netalertx-v26 | jokobsk/netalertx | 26.10.28 |  | [Docs](https://docs.netalertx.com) |
 | netalertx | jokobsk/netalertx | 25.11.29 |  |  |
 | netboot-xyz | ghcr.io/netbootxyz/netbootxyz | 0.7.6-nbxyz24 |  | [Docs](https://netboot.xyz/docs/docker/) |
 | netbox | linuxserver/netbox | 4.7.3 |  |  |
@@ -401,7 +401,7 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | pairdrop | linuxserver/pairdrop | 1.11.2 |  |  |
 | paperclip | ghcr.io/paperclipai/paperclip | latest |  | [Docs](https://github.com/paperclipai/paperclip/blob/master/doc/DOCKER.md) |
 | paperless-ngx | ghcr.io/paperless-ngx/paperless-ngx | 3.2.0 |  |  |
-| passwordpusher-v2 | pglombardo/pwpush | 2.16.3 | [YouTube Video](https://youtu.be/7Ej56MDo95g) | [Docs](https://docs.pwpush.com/docs/upgrading/) |
+| passwordpusher-v2 | pglombardo/pwpush | 2.17.0 | [YouTube Video](https://youtu.be/7Ej56MDo95g) | [Docs](https://docs.pwpush.com/docs/upgrading/) |
 | passwordpusher | pglombardo/pwpush | 1.69.3 | [YouTube Video](https://youtu.be/U17LWqXfOmU) |  |
 | pcsx2 | linuxserver/pcsx2 | 2.8.2 |  |  |
 | pd3f | pd3f/pd3f | latest |  |  |
@@ -421,7 +421,7 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | planka-v2 | ghcr.io/plankanban/planka | 2.1.1 | [YouTube Video](https://youtu.be/rsyU2cBbbSI) | [Docs](https://docs.planka.cloud/docs/upgrade-to-v2/docker/) |
 | planka | ghcr.io/plankanban/planka | 1.26.3 | [YouTube Video](https://youtu.be/rsyU2cBbbSI) |  |
 | plant-it | msdeluise/plant-it-server | 0.10.0 | [YouTube Video](https://youtu.be/mUOAQRa17T4) |  |
-| playit-docker-web | wisdomsky/playit-docker-web | 1.0.10 |  |  |
+| playit-docker-web | wisdomsky/playit-docker-web | 1.1.0 |  |  |
 | playitgg | dysta/playitgg | 1.2.0 |  |  |
 | plex-meta-manager | linuxserver/plex-meta-manager | 1.21.1 |  |  |
 | plex-nvidia | linuxserver/plex | 1.43.5 |  |  |
@@ -455,7 +455,7 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | raneto | linuxserver/raneto | 0.18.1 |  |  |
 | rawtherapee | linuxserver/rawtherapee | 5.13.20261025 |  |  |
 | rdesktop | linuxserver/rdesktop | 0.0.0 |  |  |
-| reactive-resume-v6 | amruthpillai/reactive-resume | v6.0.6 |  | [Docs](https://docs.rxresu.me/self-hosting/upgrading-to-v6) |
+| reactive-resume-v6 | amruthpillai/reactive-resume | v6.0.7 |  | [Docs](https://docs.rxresu.me/self-hosting/upgrading-to-v6) |
 | reactive-resume | amruthpillai/reactive-resume | v5.3.2 |  |  |
 | readeck | codeberg.org/readeck/readeck | 0.22.3 |  |  |
 | readme-sync | linuxserver/readme-sync | 0.0.0 |  |  |
@@ -510,7 +510,7 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | synclounge | linuxserver/synclounge | 5.2.35 |  |  |
 | syncthing | syncthing/syncthing | 2.1 |  |  |
 | syslog-ng | linuxserver/syslog-ng | 4.11.0 |  |  |
-| tailscale | tailscale/tailscale | v1.104.2 |  |  |
+| tailscale | tailscale/tailscale | v1.104.4 |  |  |
 | tandoor | ghcr.io/tandoorrecipes/recipes | 2.6.9 | [YouTube Video](https://youtu.be/f4-op1UOaWc) |  |
 | tautulli | linuxserver/tautulli | 2.18.2 |  |  |
 | telegram | linuxserver/telegram | 7.3.3 |  |  |
@@ -543,13 +543,13 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | vivaldi | linuxserver/vivaldi | 8.2.4133 |  |  |
 | vlc | linuxserver/vlc | 3.0.24 |  |  |
 | vscode | linuxserver/vscode | 1.143.1 |  |  |
-| vscodium-web | linuxserver/vscodium-web | 1.143.17183 |  |  |
-| vscodium | linuxserver/vscodium | 1.143.17183 |  |  |
-| wallabag | wallabag/wallabag | 2.6.14 |  |  |
+| vscodium-web | linuxserver/vscodium-web | 1.143.17232 |  |  |
+| vscodium | linuxserver/vscodium | 1.143.17232 |  |  |
+| wallabag | wallabag/wallabag | 2.6.15 |  |  |
 | wallos | bellamy/wallos | 5.10.2 | [YouTube Video](https://youtu.be/feYTW02YDb8) |  |
 | warracker | ghcr.io/sassanix/warracker/main | 1.0.2 |  |  |
 | watchyourlan | aceberg/watchyourlan | 2.1.4 | [YouTube Video](https://youtu.be/LaYZjvUJ9U8) |  |
-| web-check | lissy93/web-check | 2.3.10 |  | [Docs](https://github.com/lissy93/web-check/blob/master/README.md) |
+| web-check | lissy93/web-check | 2.3.11 |  | [Docs](https://github.com/lissy93/web-check/blob/master/README.md) |
 | webcord | linuxserver/webcord | 4.14.0 |  |  |
 | webdav | bytemark/webdav | latest |  |  |
 | webgrabplus | linuxserver/webgrabplus | 5.6.1 |  |  |
@@ -565,7 +565,7 @@ If you have a suggestion for an app, please post in the [BigBearCommunity](https
 | wireguard | linuxserver/wireguard | 1.0.20260223 |  |  |
 | wireshark | linuxserver/wireshark | 4.6.6 |  |  |
 | wishlist | ghcr.io/cmintey/wishlist | v0.64.0 |  |  |
-| wordpress-v7 | wordpress | 7.1.3 | [YouTube Video](https://youtu.be/j5M4qlRCbYs) |  |
+| wordpress-v7 | wordpress | 7.1.4 | [YouTube Video](https://youtu.be/j5M4qlRCbYs) |  |
 | wordpress | wordpress | 6.9.4 | [YouTube Video](https://youtu.be/j5M4qlRCbYs) |  |
 | wps-office | linuxserver/wps-office | 11.1.0 |  |  |
 | write-freely | nephatrine/write-freely | 0.17 |  |  |
