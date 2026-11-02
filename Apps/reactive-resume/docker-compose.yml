@@ -7,15 +7,20 @@ services:
   # Main application
   app:
     container_name: big-bear-reactive-resume
-    image: amruthpillai/reactive-resume:v5.3.2@sha256:b433dbe2fa2c23bfb7734d16380e4d703a05349db096113a18cb13b16f4c1fa0
+    image: amruthpillai/reactive-resume:v4.5.5@sha256:f26fd329f35b97bccdf5ee5a7b558df0ccf1e073a1d7a5787e433043e22b9296
+    entrypoint: ["/bin/sh", "-ec", "node -e 'const { PrismaClient } = require(\"@prisma/client\"); const db = new PrismaClient(); db.$$queryRawUnsafe(\"SELECT to_regclass($$1) IS NOT NULL OR to_regclass($$2) IS NOT NULL OR to_regclass($$3) IS NOT NULL AS newer\", \"drizzle.__drizzle_migrations\", \"public.user\", \"public.resume\").then(async ([row]) => { await db.$$disconnect(); if (row.newer) { console.error(\"Refusing Reactive Resume v4 startup: newer database detected. Keep the newer release or restore a pre-v5 backup.\"); process.exit(1); } }).catch(async error => { console.error(error.message); await db.$$disconnect(); process.exit(1); });'; exec docker-entrypoint.sh dumb-init pnpm run start"]
     restart: unless-stopped
     ports:
       - 3000:3000
     depends_on:
-      - postgres
-      - minio
-      - redis
-      - chrome
+      postgres:
+        condition: service_healthy
+      minio:
+        condition: service_started
+      redis:
+        condition: service_started
+      chrome:
+        condition: service_started
     networks:
       - reactive-resume-network
     environment:
@@ -163,7 +168,7 @@ services:
   # Storage (for image uploads)
   minio:
     container_name: big-bear-reactive-resume-minio
-    image: minio/minio:RELEASE.2024-09-13T20-26-02Z-cpuv1@sha256:a34ac7cbc53154bef4804b1f9d83a555f944d8c26e6466cef7e782fdb5ec40c4
+    image: pgsty/silo:RELEASE.2026-09-16T00-00-00Z@sha256:635197cb9f36d01bee221d34d1c7d7960f6a95c48b0b6c01d99cd13bdae51a46
     command: ["server", "/data"]
     restart: unless-stopped
     ports:
@@ -252,8 +257,7 @@ x-casaos:
   # Installation tips
   tips:
     before_install:
-      en_US: |
-        Change [CASAOS_IP] to your CasaOS IP address. In the environment variables.
+      en_US: This legacy entry runs Reactive Resume v4.5.5. Do not use a database already opened by v5 or v6. Keep the newer release or restore a pre-v5 backup. Before use, replace the example server IP in PUBLIC_URL, STORAGE_URL, and STORAGE_ENDPOINT with your server IP.
   # Title for the application
   title:
     en_US: Reactive Resume (Legacy)

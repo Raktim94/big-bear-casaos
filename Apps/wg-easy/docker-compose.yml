@@ -10,13 +10,14 @@ services:
     # Name of the container
     container_name: big-bear-wg-easy
     # Image to be used for the container
-    image: ghcr.io/wg-easy/wg-easy:15@sha256:071f79a639e9361123a5e57733107320207b844ddbbd92dfa6962f541fe8aac8
+    image: ghcr.io/wg-easy/wg-easy:14@sha256:5f26407fd2ede54df76d63304ef184576a6c1bb73f934a58a11abdd852fab549
     # Container restart policy
+    entrypoint: ["/bin/sh", "-ec", "if [ -e /etc/wireguard/wg-easy.db ]; then printf \"%s\\n\" \"Refusing WireGuard v14 startup: v15 database detected. Keep v15 or restore a pre-v15 backup.\" >&2; exit 1; fi; exec docker-entrypoint.sh /usr/bin/dumb-init node server.js"]
     restart: unless-stopped
     # Environment variables for the container
     environment:
       WG_HOST: "[YOUR_PUBLIC_IP]"
-      PASSWORD_HASH: "$2b$12$coPqCsPtcFO.Ab99xylBNOW4.Iu7OOA2/ZIboHN6/oyxca3MWo7fW"
+      PASSWORD_HASH: "$$2b$$12$$coPqCsPtcFO.Ab99xylBNOW4.Iu7OOA2/ZIboHN6/oyxca3MWo7fW"
       WG_DEFAULT_DNS: "1.1.1.1"
       WG_ALLOWED_IPS: 0.0.0.0/0, ::/0
     # capabilities to be added to the container
@@ -90,8 +91,7 @@ x-casaos:
   # Installation tips
   tips:
     before_install:
-      en_US: |
-        Read this before installing: https://community.bigbeartechworld.com/t/added-wg-easy-to-bigbearcasaos/1631#p-3101-documentation-3
+      en_US: 'This legacy entry runs WireGuard Easy v14. Do not use a volume already opened by v15. Keep the v15 entry or restore a pre-v15 backup. Set the server address and set PASSWORD_HASH to a bcrypt hash of a unique password, not the plaintext password, before exposing it. Read this before installing: https://community.bigbeartechworld.com/t/added-wg-easy-to-bigbearcasaos/1631#p-3101-documentation-3'
   # Title for the application
   title:
     en_US: Wireguard Easy 14 (Legacy)

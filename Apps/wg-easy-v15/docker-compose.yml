@@ -16,9 +16,10 @@ services:
     # Environment variables for the container
     # v15 uses INIT_* variables for unattended setup (only used on first start)
     environment:
+      INSECURE: "true"
       INIT_ENABLED: "true"
       INIT_USERNAME: "bigbear"
-      INIT_PASSWORD: "changeme"
+      INIT_PASSWORD: "ChangeMeBeforeUse2026!"
       INIT_HOST: "[YOUR_PUBLIC_IP]"
       INIT_PORT: "51820"
       INIT_DNS: "1.1.1.1,8.8.8.8"
@@ -49,6 +50,9 @@ services:
       - 51821:51821/tcp # UI port
     x-casaos:
       envs:
+        - container: INSECURE
+          description:
+            en_US: 'Container Variable: INSECURE'
         - container: INIT_ENABLED
           description:
             en_US: 'Container Variable: INIT_ENABLED'
@@ -110,7 +114,7 @@ x-casaos:
   # Installation tips
   tips:
     before_install:
-      en_US: 'Read this before installing: https://community.bigbeartechworld.com/t/added-wg-easy-v15-to-bigbearcasaos/5071#p-7701-why-a-new-version-4'
+      en_US: 'Change the public example INIT_USERNAME and INIT_PASSWORD before first start. Use a unique password of at least 12 characters. INIT_PASSWORD only bootstraps a new account; changing it does not update an existing account. Use the admin UI to change existing users. INSECURE=true enables HTTP for trusted LAN access only. Use a TLS reverse proxy for remote or untrusted access, and block direct access to HTTP port 51821 from those networks. Read this before installing: https://community.bigbeartechworld.com/t/added-wg-easy-v15-to-bigbearcasaos/5071#p-7701-why-a-new-version-4'
   # Title for the application
   title:
     en_US: WireGuard Easy v15

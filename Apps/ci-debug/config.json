@@ -1,6 +1,6 @@
 {
   "id": "ci-debug",
-  "version": "0.0.0",
+  "version": "933e2702-ls1",
   "image": "linuxserver/ci-debug",
   "youtube": "",
   "docs_link": ""

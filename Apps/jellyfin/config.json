@@ -1,6 +1,6 @@
 {
   "id": "jellyfin",
-  "version": "0.0.0",
+  "version": "12.1ubu2604-ls50",
   "image": "linuxserver/jellyfin",
   "youtube": "",
   "docs_link": ""
