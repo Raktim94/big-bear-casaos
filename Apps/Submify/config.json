@@ -1,0 +1,7 @@
+{
+  "id": "submify",
+  "version": "0.4.1",
+  "image": "ghcr.io/raktim94/submify-nginx",
+  "youtube": "",
+  "docs_link": "https://github.com/Raktim94"
+}

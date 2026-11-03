@@ -1,0 +1,7 @@
+{
+  "id": "nodedr-pos",
+  "version": "1.6.2",
+  "image": "ghcr.io/raktim94/nodedr-pos-frontend",
+  "youtube": "",
+  "docs_link": "https://github.com/Raktim94"
+}

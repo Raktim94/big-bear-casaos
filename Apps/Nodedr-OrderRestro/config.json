@@ -1,0 +1,7 @@
+{
+  "id": "nodedr-orderrestro",
+  "version": "1.20.0",
+  "image": "ghcr.io/raktim94/nodedr-restaurant-pos-web",
+  "youtube": "",
+  "docs_link": "https://github.com/Raktim94"
+}
